@@ -3,8 +3,7 @@
 /public/storage
 /storage/*.key
 /vendor
-/docker/mysql
-/docker
+
 .env
 .env.dev
 nohup.out
