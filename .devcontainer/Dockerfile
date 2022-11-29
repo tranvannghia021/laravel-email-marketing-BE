@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/php:0-8.1
+FROM wyveo/nginx-php-fpm:php81
 
 # Install MariaDB client
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
